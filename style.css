@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.feed {
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.card {
+
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 10px 25px
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.likes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 2
+}
+
+h2 {
+    /* flex: 1 */
+}
+
+.card button {
+    box-shadow: 2px 1px black;
+    background-color: yellow;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+button:hover {
+    transform: scale(0.9);
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(48, 43, 43);
+    height: 60px;
+    padding: 3px 10px;
+    color: white;
+    /* justify-content: space-around; */
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px 20px;
+    margin: 10px 30px;
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: fit-content;
+
+}
+
+.cards {
+    flex: 3
+}
